@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admission Form</title>
+  </head>
+  <body>
+    <h1>Student Admission Form</h1>
+    <form action="">
+      <label for="">Full Name</label>
+      <input type="text" name="" id="" minlength="5" required /><br />
+      <label for="">Email Address</label>
+      <input type="email" name="" id="" /><br /><br />
+      <label for="">DOB</label>
+      <input type="date" name="" id="" /><br /><br />
+      <input type="radio" name="gender" id="" />malee
+      <input type="radio" name="gender" id="" />female
+      <br />
+      <label for="">Course</label>
+      <select name="" id="">
+        <option value="">MERN</option>
+        <option value="">DATA ANALYTICS</option>
+        <option value="">MACHINE LEARNING</option>
+      </select>
+
+      <br />
+
+      <label for="">SELECT COLLEGE</label>
+      <input type="text" list="college" />
+
+      <datalist id="college">
+        <option>INTEGRAL</option>
+        <option>BBD</option>
+        <option>SRMU</option>
+      </datalist>
+      <br />
+
+
+      <label for="">Address</label><br />
+      <textarea name="" id="" rows="12" cols="50"></textarea>
+      <br />
+      <input type="checkbox" />
+      <label for="">Check this</label>
+
+      <details>
+        <summary>View Terms&Conditions</summary>
+        <p>
+          Lorem ipsum dolor sit amet <mark>Lorem, ipsum dolor.</mark> adipisicing elit. Optio,
+          similique.
+        </p>
+      </details>
+      <br />
+
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
