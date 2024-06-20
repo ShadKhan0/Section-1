@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ticket Booking</title>
+    <style>
+      body {
+        text-align: center;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      .center {
+        margin: auto;
+        width: 300px;
+        border: 2px grey solid;
+        border-radius: 5%;
+        padding: 30px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      form {
+        padding: 0px 20px;
+      }
+      input {
+        width: 70%;
+        padding: 5px;
+        border-radius: 3px;
+        border: grey 1px solid;
+      }
+      a {
+        text-decoration: none;
+        padding: 5px 10px;
+        color: white;
+        border-radius: 5px;
+      }
+      #select{
+        margin-top:5px;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center">
+      <h1 style="color: red">BOOK YOUR SHOW</h1>
+
+      <form action="" style="display: flex; flex-direction: column; gap: 30px">
+        <div>
+          <label for="">Full Name</label><br />
+          <input type="text" />
+        </div>
+        <div>
+          <label for="">Movie</label><br>
+          <select name="" id="">
+            <option value="">Godzilla MinusOne</option>
+            <option value="">John Wick</option>
+            <option value="">Avengers</option>
+            <option value="">Barbie</option>
+          </select>
+        </div>
+        <div>
+          <label for="">Show Timing</label><br />
+          <input type="date" /><br>
+          <select name="" id="select">
+            <option value="">4:00p.m</option>
+            <option value="">6:00p.m</option>
+            <option value="">8:00p.m</option>
+            <option value="">10:00p.m</option>
+          </select>
+        </div>
+        <div><a style="background-color: green">Book Now</a></div>
+      </form>
+    </div>
+  </body>
+</html>
