@@ -1,0 +1,125 @@
+* {
+  font-family: "Varela Round";
+}
+.card {
+  display: flex;
+  width: 45%;
+
+  height: 65%;
+  border-radius: 25px;
+  background-color: rgba(211, 211, 211, 0.35);
+  backdrop-filter: blur(6px);
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 26px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
+
+.form,
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.input:focus {
+  background-color: white;
+  opacity: 1;
+  border: none !important;
+}
+.image img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+.input {
+  margin-bottom: 30px;
+  padding: 12px 130px 12px 35px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: none;
+  color: grey;
+  background-color: white;
+  opacity: 0.8;
+
+}
+.comment{
+    padding:12px 130px 40px 35px;
+}
+p{
+    color:white;
+    font-weight: bold ;
+    margin-bottom: 30px;
+    margin-top: 0px;;
+}
+
+h1 {
+ margin-bottom: 0px;
+  font-size: 50px;
+  color: white;
+}
+textarea {
+    padding: 12px 110px 12px 70px !important;
+  overflow: auto;
+  resize: none;
+  max-height: 80px;
+}
+.alien{
+    width:180px;
+    z-index: 99999;
+    position: absolute;
+    left:66%;
+    top:3%;
+    transform: rotate(18deg);
+}
+
+.btn {
+  
+    align-self: center;
+  padding: 12px 75px ;
+  background-color: #73298c;
+  color: white;
+  opacity: 1;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+body {
+  flex-direction: column;
+  margin: 0px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./deep-purple-galaxy-and-planet-background-free-vector.jpg");
+}
+.form-inside {
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  flex: 5;
+}
+.image {
+  flex: 4;
+  padding: -30px -30px;
+}
+i{
+    z-index: 999;
+    position: relative;
+    right:-30px;
+    color:rgba(0, 0, 0, 0.448);
+    opacity: 1 !important;
+    font-size:17px;
+  
+}
+input:focus{
+  border: none;
+  outline: none;
+}
